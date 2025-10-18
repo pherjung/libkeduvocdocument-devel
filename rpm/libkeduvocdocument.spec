@@ -22,10 +22,10 @@ Source:  https://download.kde.org/%{stable_kf6}/release-service/%{version}/src/%
 BuildRequires:  make
 BuildRequires:  extra-cmake-modules
 BuildRequires:  kf6-rpm-macros
-BuildRequires:  qt6-xml
-BuildRequires:  kf6-i18n
+#BuildRequires:  qt6-xml
+BuildRequires:  kf6-ki18n
 BuildRequires:  kf6-karchive
-BuildRequires:  kf6-kio
+#BuildRequires:  kf6-kio
 
 %if 0%{?tests}
 BuildRequires: xorg-x11-server-Xvfb
